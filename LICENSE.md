@@ -2,17 +2,17 @@
 
 #Project Supervisor:
 
-Dr : Mohamed Arabi 
-Eng : Dalia Tourky
+Dr : Mohamed Arabi.
+Eng : Dalia Tourky.
 
 
 #Studints:
 
-Mahmoud Osman Mohamed
-Ahmed Al-Sbaay
-Asmaa El-Basuony
-Mohammed Ali Awad
-Hamdy Naser Eloufy
-Mahmoud Qassam
-Mahmoud Khaled
-Khaled Abdallah
+Mahmoud Osman Mohamed.
+Ahmed Al-Sbaay.
+Asmaa El-Basuony.
+Mohammed Ali Awad.
+Hamdy Naser Eloufy.
+Mahmoud Qassam.
+Mahmoud Khaled.
+Khaled Abdallah.
