@@ -1,26 +1,28 @@
 # Electronic-Delegate
 
-#Project Supervisor:
+# Supervised by:
 
-Dr : Mohamed Arabi.
+Prof. Dr. Arabi El-Said Keshk
+
+# Assistant:
 
 Eng : Dalia Tourky.
 
 
-#Studints:
+# Studints:
 
-Mahmoud Osman Mohamed.
+Mahmoud Osman Mohamed Elesawi.
 
-Ahmed Al-Sbaay.
+Ahmed Al-Sbaay Zaki Mansor.
 
-Asmaa El-Basuony.
+Asmaa Adel mohamed Basuony.
 
-Mohammed Ali Awad.
+Mohammed Ali Awad Ahmed.
 
-Hamdy Naser Eloufy.
+Hamdy Naser Sayed Shaban Eloufy.
 
-Mahmoud Qassam.
+Mahmoud Ashraf Qassam Ahmed.
 
-Mahmoud Khaled.
+Mahmoud Khaled Sayed Abd Elhady.
 
-Khaled Abdallah.
+Khaled Abdallah Abo Eldahab Hamed.
