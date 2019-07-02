@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="governorate">
+        <item>Select governorate</item>
+        <item>Cairo</item>
+        <item>Giza</item>
+    </string-array>
+
+    <string-array name="cairodistrict">
+        <item>Select district</item>
+        <item>Shobra</item>
+        <item>Nasr City</item>
+    </string-array>
+
+    <string-array name="ShobraArea">
+        <item>Select area</item>
+        <item>El Mazalat</item>
+        <item>El Khalafawy</item>
+        <item>Sant Treaz</item>
+        <item>Road El Farag</item>
+        <item>Masara</item>
+        <item>El Teraa </item>
+        <item>El Sahel</item>
+        <item>Gzert Badran</item>
+        <item>Ahmed Helmy</item>
+        <item>Mnyat Elsereg</item>
+        <item>Gzert Badran</item>
+        <item>Toson</item>
+
+    </string-array>
+
+    <string-array name="NasrCityArea">
+        <item>Select area</item>
+        <item>First neighborhood</item>
+        <item>Second neighborhood</item>
+        <item>Rabaa Al Adawiya</item>
+        <item>Swiss Neighborhood</item>
+        <item>sixth neighborhood</item>
+        <item>Seventh neighborhood</item>
+        <item>Eighth neighborhood</item>
+        <item>Ninth neighborhood</item>
+        <item>tenth neighborhood</item>
+        <item>International Park</item>
+        <item>Fath City</item>
+        <item>Elzhor neighborhood</item>
+        <item>Elsefarat neighborhood</item>
+        <item>Elzahraa</item>
+        <item>Sakan Elmohandseen</item>
+        <item>Elwfaa w Elamal</item>
+        <item>Elamal City</item>
+        <item>Ezbet Elhaggana</item>
+
+    </string-array>
+
+    <string-array name="gizadistrict">
+        <item>Select district</item>
+        <item>El Haram</item>
+        <item>6 Of October</item>
+
+    </string-array>
+
+    <string-array name="HaramArea">
+        <item>Select area</item>
+        <item>ELmohafza ST</item>
+        <item>Winbe</item>
+        <item>Elmsaha</item>
+        <item>Fatma Roshdi</item>
+        <item>Madkor</item>
+        <item>Nasr Elden</item>
+        <item>Eltalbia</item>
+        <item>Elarezona</item>
+        <item>Hasan Mohamed</item>
+        <item>Elmatbaa</item>
+        <item>Eltaawon</item>
+        <item>Elareesh</item>
+        <item>Elkom Elakhdr</item>
+        <item>Elmarutia</item>
+        <item>Elwafaa W Elamal</item>
+        <item>Elmansorya</item>
+        <item>Nazlet elsman</item>
+    </string-array>
+
+    <string-array name="OctoberArea">
+        <item>Select area</item>
+        <item>Motamiz District</item>
+        <item>First District</item>
+        <item>Second District</item>
+        <item>Third District</item>
+        <item>Fourth District</item>
+        <item>Fifth District</item>
+        <item>Sixth District</item>
+        <item>Seventh District</item>
+        <item>Eighth District</item>
+        <item>Ninth District</item>
+        <item>Tenth District</item>
+        <item>Eleventh District</item>
+        <item>Twelveth District</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Select Category</item>
+        <item>Antipyretics</item>
+        <item>Analgesics</item>
+        <item>Antibiotics</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Select Type</item>
+        <item>Pill</item>
+        <item>Injection</item>
+        <item>Drink</item>
+    </string-array>
+
+</resources>

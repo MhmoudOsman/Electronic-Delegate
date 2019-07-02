@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#272727</color>
+    <color name="colorPrimaryDark">#272727</color>
+    <color name="colorAccent">#272727</color>
+
+    <color name="company">#4499D1</color>
+    <color name="head">#33BC99</color>
+    <color name="patient">#70E3FF</color>
+
+    <color name="item">#808080</color>
+    <color name="overlay_dark_30">#4D000000</color>
+</resources>

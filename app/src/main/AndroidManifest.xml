@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="muhammed.awad.electronicdelegate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name=".App.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".PatientApp.PatientAddToCartActivity" />
+        <activity android:name=".CompanyApp.CompanyRequestsActivity" />
+        <activity android:name=".PharmacyApp.PharmacyRequestsActivity" />
+        <activity android:name=".FawryActivity" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".PatientApp.PharmacyStoreActivity" />
+        <activity android:name=".PharmacyApp.PharmacyMedActivity" />
+        <activity android:name=".PatientApp.CheckActivity" />
+        <activity android:name=".PatientSignInActivity" />
+        <activity android:name=".PatientApp.PatientMainActivity" />
+        <activity android:name=".PharmacyApp.PharmacyAddToCartActivity" />
+        <activity android:name=".PharmacyApp.PharmacyMainActivity" />
+        <activity android:name=".PharmaceuticalActivity" />
+        <activity android:name=".Register2Activity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <service android:name=".Notifications.AppMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

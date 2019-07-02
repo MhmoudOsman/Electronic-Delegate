@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_requests"
+            android:icon="@drawable/ic_order_status"
+            android:title="Requests" />
+
+        <item
+            android:id="@+id/nav_pharmaceuticals"
+            android:icon="@drawable/ic_pills"
+            android:title="Drugs" />
+
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_store"
+            android:title="My Store" />
+
+        <item
+            android:id="@+id/feed"
+            android:icon="@drawable/ic_news"
+            android:title="News Feed" />
+
+        <item
+            android:id="@+id/cart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Cart" />
+
+        <item
+            android:id="@+id/order"
+            android:icon="@drawable/ic_order_status"
+            android:title="Order Status" />
+
+    </group>
+
+</menu>

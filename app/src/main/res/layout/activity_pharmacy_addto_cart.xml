@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PharmaceuticalActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pharmaceutical_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="16sp"
+                android:src="@drawable/addphoto" />
+
+            <TextView
+                android:id="@+id/pharmaceutical_name_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@drawable/edit_text_background"
+                android:hint="Pharmaceutical Name"
+                android:paddingLeft="10dp"
+                android:paddingTop="13dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="13dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pharmaceutical_company_name_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/edit_text_background"
+                android:hint="Company Name"
+                android:paddingLeft="10dp"
+                android:paddingTop="13dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="13dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pharmaceutical_price_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/edit_text_background"
+                android:hint="Pharmaceutical Price"
+                android:paddingLeft="10dp"
+                android:paddingTop="13dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="13dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/typ"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="type"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="13dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="13dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cate"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="Catedory"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="13dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="13dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />/>
+
+
+                <TextView
+                    android:id="@+id/customer_price_field"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="C Price"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="13dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="13dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/pharmaceutical_info_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@drawable/edit_text_background"
+                android:gravity="start"
+                android:hint="Pharmaceutical Information"
+                android:paddingLeft="10dp"
+                android:paddingTop="13dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="13dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/minus_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:backgroundTint="@color/head"
+                    android:src="@drawable/ic_minussymbol"
+                    android:tint="@android:color/black"
+                    app:rippleColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/quantity_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="5"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="13dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="13dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/add_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:backgroundTint="@color/head"
+                    android:src="@drawable/ic_add"
+                    android:tint="@android:color/black"
+                    app:rippleColor="@android:color/black" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="32dp"
+                    android:layout_weight="1"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp">
+
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        style="@style/RippleStyleGrey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:id="@+id/addtocart_btn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/head"
+                            android:text="Add To Card"
+                            android:textColor="@color/colorAccent"
+                            android:textStyle="bold" />
+
+                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.victor.loading.rotate.RotateLoading
+        android:id="@+id/rotateloading"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        app:loading_color="@color/colorPrimary"
+        app:loading_width="5dp" />
+
+</RelativeLayout>
