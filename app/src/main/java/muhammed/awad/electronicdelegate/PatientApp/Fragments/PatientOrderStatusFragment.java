@@ -85,16 +85,6 @@ public class PatientOrderStatusFragment extends Fragment {
                     @Override
                     public void onClick(View view) {
                         if (model.getState().equals("Deliverd")) {
-                          /*  if ( model.getPayment().equals("Fawry")){
-
-                                ConfirmFawryDialog.showDialog(getActivity(), key.substring(1, 11) + "", new ConfirmFawryDialog.DialogListener() {
-                                    @Override
-                                    public void onFawry() {
-                                        Toast.makeText(getActivity(), "Payment Successful.", Toast.LENGTH_SHORT).show();
-                                    }
-                                });
-
-                            }else{*/
                                 Toast.makeText(getActivity(), "This order Deliverd.", Toast.LENGTH_SHORT).show();
 
 

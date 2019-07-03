@@ -141,21 +141,6 @@ public class PharmacyAddToCartActivity extends AppCompatActivity {
         });
     }
 
-//    public void AddToDb(String image, String name, String pharmacy, String price, String location, String q) {
-//        PharmacyOrderModel orderModel = new PharmacyOrderModel(image, name, pharmacy, price, location, q);
-//
-//        String key = databaseReference.child("requests").push().getKey();
-//
-//        databaseReference.child("requests").child(company_uid).child(key).setValue(orderModel);
-//        databaseReference.child("pharmacyrequest").child(getUID()).child(key).setValue(orderModel);
-//
-//        Toast.makeText(getApplicationContext(), "Ordered Successfully ..", Toast.LENGTH_SHORT).show();
-//
-//        Intent intent = new Intent(getApplicationContext(), PharmacyMainActivity.class);
-//        startActivity(intent);
-//    }
-
-
     public void AddToDb(String image, String name, String pharmacy, String price, String location, String q, String pay) {
         MedicineCartModel medicineCartModel = new MedicineCartModel(company_uid, image, name, pharmacy, price, location, q, pay);
         CartMedicineManager.getInstance().addMedicineCartModels(medicineCartModel);

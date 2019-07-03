@@ -507,7 +507,6 @@ public class RegisterActivity extends AppCompatActivity {
                 progressDialog.show();
                 progressDialog.setCancelable(false);
 
-                //startPhoneNumberVerification(mobile);
                 CreatePatientAccount(all, email_Address, password_txt, mobile, selected_governorate, selected_district, b, s);
             }
         });
@@ -523,7 +522,8 @@ public class RegisterActivity extends AppCompatActivity {
         dialog.getWindow().setAttributes(lp);
     }
 
-    private void CreatePatientAccount(final String all, final String email_address, String password_txt, final String mobile, final String selected_governorate, final String selected_district, final String b, final String s) {
+    private void CreatePatientAccount(final String all, final String email_address, String password_txt,
+                                      final String mobile, final String selected_governorate, final String selected_district, final String b, final String s) {
         auth.createUserWithEmailAndPassword(email_address, password_txt)
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
@@ -944,7 +944,8 @@ public class RegisterActivity extends AppCompatActivity {
                             uploadImages();
                             CompanyModel companyModel = new CompanyModel(all, email_Address, mobile, b, s, selected_district, selected_governorate, title);
                             databaseReference.child("AllUsers").child("Pharmacies").child(getUID()).setValue(companyModel);
-                            databaseReference.child("PharmaciesLocations").child(selected_governorate).child(selected_district).child(selected_area).child(getUID()).setValue(companyModel);
+                            databaseReference.child("PharmaciesLocations").child(selected_governorate).child(selected_district)
+                                    .child(selected_area).child(getUID()).setValue(companyModel);
 
                             Intent intent = new Intent(getApplicationContext(), PharmacyMainActivity.class);
                             startActivity(intent);

@@ -91,7 +91,8 @@ public class PatientSignInActivity extends AppCompatActivity {
                                     String token_id = getTokenResult.getToken();
                                     String user_id = auth.getCurrentUser().getUid();
 
-                                    databaseReference.child("AllUsers").child("Patients").child(user_id).child("token_id").setValue(token_id).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    databaseReference.child("AllUsers").child("Patients").child(user_id).child("token_id")
+                                            .setValue(token_id).addOnSuccessListener(new OnSuccessListener<Void>() {
                                         @Override
                                         public void onSuccess(Void aVoid) {
                                             Intent intent = new Intent(getApplicationContext(), PatientMainActivity.class);

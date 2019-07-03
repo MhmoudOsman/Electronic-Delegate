@@ -114,14 +114,6 @@ public class PharmaceuticalFragment extends Fragment {
 
                 final String key = getRef(position).getKey();
 
-                /*holder.details.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent intent= new Intent(getContext(), PharmaceuticalActivity.class);
-                        intent.putExtra(EXTRA_EDIT_PHARMA, key);
-                        startActivity(intent);
-                    }
-                });*/
 
                 holder.more_btn.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -273,7 +265,6 @@ public class PharmaceuticalFragment extends Fragment {
         databaseReference.child("Allpharmaceutical").child(key).removeValue();
 
         Toast.makeText(getContext(), "Deleted ..", Toast.LENGTH_SHORT).show();
-        /*Intent intent = new Intent(getContext(), MainActivity.class);
-        startActivity(intent);*/
+
     }
 }
