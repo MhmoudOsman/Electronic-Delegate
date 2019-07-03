@@ -50,7 +50,7 @@ public class PharmacyAddToCartActivity extends AppCompatActivity {
     FloatingActionButton minus_btn, add_btn;
 
     int i = 0;
-    double o = 0;
+    float o = 0;
 
 
     RotateLoading rotateLoading;
@@ -130,7 +130,7 @@ public class PharmacyAddToCartActivity extends AppCompatActivity {
                 if (i == 0) {
                     Toast.makeText(getApplicationContext(), "you can't order less than 0 item", Toast.LENGTH_SHORT).show();
                 } else {
-                    double all = i * o;
+                    float all = i * o;
                     String allprice = String.valueOf(all);
 
                     String pay = null;
@@ -188,7 +188,7 @@ public class PharmacyAddToCartActivity extends AppCompatActivity {
                         String[] parts = string.split(" ");
                         String pr = parts[0];
 
-                        o = Double.parseDouble(pr);
+                        o = Float.parseFloat(pr);
 
                         pharmaceutical_name.setText(medicineModel.getName());
                         pharmaceutical_price.setText("Price : "+medicineModel.getPrice());
