@@ -475,7 +475,7 @@ public class RegisterActivity extends AppCompatActivity {
                     return;
                 }
 
-                if (TextUtils.isEmpty(mobile)) {
+                if (TextUtils.isEmpty(mobile) && mobile.equals(11)) {
                     Toast.makeText(getApplicationContext(), "please enter your mobile number", Toast.LENGTH_SHORT).show();
                     return;
                 }

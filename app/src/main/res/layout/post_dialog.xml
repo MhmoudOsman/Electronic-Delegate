@@ -28,7 +28,7 @@
                 android:background="@color/company"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="ADD POST"
+                android:text="ADD NEWS"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -55,7 +55,7 @@
                     android:id="@+id/post_field"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="What's on your mind .. "
+                    android:hint=" Whats News ... "
                     android:textColor="@android:color/black"
                     android:textSize="16sp" />
 

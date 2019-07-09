@@ -9,28 +9,37 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!--<TextView-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:background="@color/colorAccent"-->
-    <!--android:padding="24dp"-->
-    <!--android:text="Patient App"-->
-    <!--android:textColor="@android:color/white"-->
-    <!--android:textSize="18sp"-->
-    <!--android:textStyle="bold" />-->
-
-    <android.support.design.widget.TabLayout
-        android:id="@+id/tabs"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:tabIndicatorColor="@color/patient"
-        app:tabIndicatorFullWidth="false"
-        app:tabIndicatorHeight="3dp"
-        app:tabSelectedTextColor="@color/colorPrimaryDark"
-        app:tabTextAppearance="@style/TextAppearance.Subhead.Bold"
-        app:tabTextColor="@color/item">
+        android:orientation="horizontal"
+        android:weightSum="2">
 
-    </android.support.design.widget.TabLayout>
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@color/patient"
+            app:tabIndicatorFullWidth="false"
+            app:tabIndicatorHeight="3dp"
+            android:layout_weight="1"
+            app:tabSelectedTextColor="@color/colorPrimaryDark"
+            app:tabTextAppearance="@style/TextAppearance.Subhead.Bold"
+            app:tabTextColor="@color/item">
+
+        </android.support.design.widget.TabLayout>
+
+        <ImageView
+            android:id="@+id/mor"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_more_vert_black_24dp" />
+
+    </LinearLayout>
+
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
